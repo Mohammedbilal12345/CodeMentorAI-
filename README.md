@@ -1,58 +1,55 @@
-
 <h1 align="center">🚀 CodeMentorAI</h1>
-<p align="center">Your AI-Powered Code Reviewer using Google Gemini 2.0 + Prompt Engineering</p>
+<p align="center">Your AI-Powered Code Reviewer built with Gemini 2.0 + Prompt Engineering</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Gemini%202.0-AI%20Model-brightgreen" />
   <img src="https://img.shields.io/badge/MERN-Full%20Stack-blue" />
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-Custom-orange" />
   <img src="https://img.shields.io/badge/Vite-Frontend-ff69b4" />
   <img src="https://img.shields.io/badge/Nodemon-Backend-yellow" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-Smart-orange" />
 </p>
 
 ---
 
 ### 🧠 What is CodeMentorAI?
 
-> **CodeMentorAI** is a stunning and intelligent code reviewer built with 💡 Google’s Gemini 2.0 AI. It analyzes your code and provides expert-level reviews instantly using prompt engineering — all inside a modern, animated web interface.
+> **CodeMentorAI** is an intelligent AI-powered code reviewer that uses **Google Gemini 2.0** and custom-crafted **prompt engineering** to review your code like a pro. From code suggestions to optimization tips, it feels like having your own AI tech lead.
 
 ---
 
 ### 🌟 Screenshot
 
-> _Replace with your screenshot after deployment_
+>![image](https://github.com/user-attachments/assets/5b8591c7-1f6b-4250-8cf8-a00b59278a63)
+
 
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/94fc931a-1224-4cc9-9e31-f6d213130a39)
-" alt="CodeMentorAI Screenshot"/>
+  <img src="CodeMentorAI.png" alt="CodeMentorAI Screenshot" width="850" />
 </p>
 
 ---
 
-### 🚀 Tech Stack
+### ⚙️ Tech Stack
 
-| Layer     | Tools & Frameworks |
-|-----------|--------------------|
-| Frontend  | React.js (Vite), PrismJS, CSS Animations |
-| Backend   | Node.js, Express.js, CORS, Nodemon |
-| AI Engine | Google Gemini 2.0 (via Generative Language API) |
-| Editor    | `react-simple-code-editor`, `highlight.js` |
+- **Frontend**: React.js (Vite), PrismJS, Highlight.js, Animated CSS
+- **Backend**: Node.js, Express.js, CORS, Nodemon,Prompt Engineering 
+- **AI Engine**: Google Gemini 2.0 Pro API
+- **Editor**: `react-simple-code-editor` + `highlight.js`
 
 ---
 
-### 💡 Features
+### 🚀 Features
 
-✅ Sleek dark-mode live code editor  
-✅ One-click **AI Code Review** powered by Gemini 2.0  
-✅ Prompt-engineered responses for precision suggestions  
-✅ Professional design with hover effects & animations  
-✅ Modular MERN setup with easy scalability
+- 🌑 Beautiful dark-themed live code editor
+- 🤖 Instant AI code reviews via Gemini 2.0
+- 🔍 Smart feedback on logic, syntax, and performance
+- 🎨 Eye-catching CSS animations and modern UI
+- ⚡ Fully responsive and optimized for all devices
 
 ---
 
 ### 🔧 Getting Started
 
-#### 🔙 Backend Setup
+#### 🖥 Backend
 
 ```bash
 cd backend
@@ -60,7 +57,7 @@ npm install
 npx nodemon server.js
 ````
 
-#### 💻 Frontend Setup
+#### 💻 Frontend
 
 ```bash
 cd frontend
@@ -68,52 +65,36 @@ npm install
 npm run dev
 ```
 
-#### 🔑 Environment Variable
+#### 🔐 Environment Setup
 
-Create a `.env` file in the backend:
+Create a `.env` file in your `backend`:
 
 ```
-GEMINI_API_KEY=your_google_gemini_api_key_here
+GEMINI_API_KEY=your_google_gemini_api_key
 ```
 
 ---
 
-### 🌐 Live Demo
-
-> *Coming soon...*
-
-Deploy it using **Vercel**, **Netlify**, or **Render**, and add the link here!
-
----
-
-### 📌 Why CodeMentorAI?
-
-Because it’s not just a tool — it’s your AI pair-programmer 🤖
-Whether you’re a student, developer, or startup, **CodeMentorAI** saves hours of debugging by giving smart, contextual reviews in seconds.
-
----
-
-### 🧑‍💻 Built with 💖 by
+### ✨ Author
 
 **Mohammed Bilal**
-B.Tech CSE | MERN + AI Enthusiast
-[🔗 LinkedIn](https://www.linkedin.com/in/mohammed-bilal-23678328a/) • [🌐 Portfolio](https://mohammedbilal.vercel.app/)
+B.Tech CSE | MERN Stack + AI Developer
+[🔗 LinkedIn](https://linkedin.com/in/mohammed-bilal-23678328a/) • [🌐 Portfolio](https://mohammedbilal.vercel.app/)
 
 ---
 
-> *“Let AI roast your code so humans don’t have to.” — CodeMentorAI 🔥*
+> *“Let AI roast your code — before your seniors do.” – CodeMentorAI 🔥*
 
 ````
 
 ---
 
-### ✅ What to do next:
-- Replace screenshot link
-- Update LinkedIn & portfolio
-- Push with:
+📌 **To complete:**
+- Just upload your `CodeMentorAI.png` to the **root** of your GitHub repo
+- Replace `yourprofile` and `your-portfolio.com`
+- Push it using:
 
 ```bash
 git add README.md
-git commit -m "🚀 Added beautiful README"
-git push
-````
+git commit -m "📝 Final README with screenshot support"
+git push origin main
