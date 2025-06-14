@@ -22,9 +22,6 @@
 >![image](https://github.com/user-attachments/assets/5b8591c7-1f6b-4250-8cf8-a00b59278a63)
 
 
-<p align="center">
-  <img src="CodeMentorAI.png" alt="CodeMentorAI Screenshot" width="850" />
-</p>
 
 ---
 
