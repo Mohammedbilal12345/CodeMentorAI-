@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: white;
+  overflow: hidden;
+}
+
+/* Layout container */
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Left and Right panels */
+main .left,
+main .right {
+  flex-basis: 50%;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* LEFT Panel (code area) */
+main .left {
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+}
+
+.left:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 25px rgba(100, 100, 255, 0.3);
+}
+
+.left .code,
+.code pre,
+.code pre code {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.7rem;
+  background-color: #0e0e0e;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #f1f1f1;
+  overflow-y: auto;
+}
+
+/* GLOWING REVIEW BUTTON 💥 */
+main .left .review {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #7b61ff, #8ec5fc);
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(126, 125, 255, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+main .left .review:hover {
+  transform: scale(1.1) translateY(-3px);
+  background: linear-gradient(135deg, #a18cff, #9be7ff);
+  box-shadow: 0 10px 30px rgba(156, 255, 255, 0.5);
+  letter-spacing: 1px;
+}
+
+main .left .review:active {
+  transform: scale(0.97);
+  box-shadow: 0 5px 15px rgba(100, 100, 255, 0.3);
+}
+
+/* RIGHT Panel (AI review output) */
+main .right {
+  background-color: #1d1d1d;
+  padding: 2rem;
+  font-size: 1.2rem;
+  overflow-y: auto;
+  animation: slideIn 1s ease-out;
+  line-height: 1.6;
+  border: 1px solid #2a2a2a;
+  border-radius: 0.8rem;
+}
+
+/* Custom Scrollbar */
+main .right::-webkit-scrollbar {
+  width: 10px;
+}
+main .right::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+main .right::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+main .right::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(30px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
